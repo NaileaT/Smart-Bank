@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components"
 import Title from "../Title";
 import Account from "../Account";
+import List from "../List";
 
 
 const StyledContainer = styled.div`
@@ -27,6 +28,7 @@ const Container = () => {
       <Title>Smart Bank</Title>
       <StyledContent>
         <Account />
+        <List/>
       </StyledContent>
     </StyledContainer>
   );
